@@ -19,6 +19,8 @@ const translations = {
     forEmployers: 'Роботодавцям',
     categoriesTitle: 'Популярні категорії',
     employersTitle: 'Потрібні працівники?',
+    employersText: 'Звʼяжіться з нами для розміщення вакансій.',
+    contactUs: 'Контакти',
   },
   en: {
     navHome: 'Home',
@@ -36,6 +38,8 @@ const translations = {
     forEmployers: 'For Employers',
     categoriesTitle: 'Popular Categories',
     employersTitle: 'Need Employees?',
+    employersText: 'Contact us to post your job openings.',
+    contactUs: 'Contacts',
   },
 } satisfies Record<Language, unknown>;
 
