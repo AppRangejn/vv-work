@@ -14,12 +14,20 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
+        path: 'partners',
+        element: <Navigate to="/partners/all" replace />,
+      },
+      {
         path: 'partners/:slug',
         element: <PartnerPage />,
       },
       {
         path: 'contacts',
         element: <ContactsPage />,
+      },
+      {
+        path: 'контакти',
+        element: <Navigate to="/contacts" replace />,
       },
       {
         path: '*',

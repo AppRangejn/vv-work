@@ -14,9 +14,9 @@ function CategoriesList() {
           <Link
             key={cat.id}
             to={`/partners/all?category=${cat.id}`}
-            className="border p-4"
+            className="border p-4 hover:bg-zinc-50"
           >
-            {lang === 'ua' ? cat.ua : cat.en}
+            {cat[lang]}
           </Link>
         ))}
       </div>
