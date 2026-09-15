@@ -21,6 +21,12 @@ const translations = {
     employersTitle: 'Потрібні працівники?',
     employersText: 'Звʼяжіться з нами для розміщення вакансій.',
     contactUs: 'Контакти',
+    allJobsTitle: 'Усі вакансії',
+    partnerJobsTitle: 'Вакансії',
+    loadingText: 'Завантаження...',
+    loadError: 'Сталася помилка при завантаженні даних.',
+    retryBtn: 'Спробувати ще раз',
+    noJobsFound: 'Вакансій не знайдено.',
   },
   en: {
     navHome: 'Home',
@@ -40,6 +46,12 @@ const translations = {
     employersTitle: 'Need Employees?',
     employersText: 'Contact us to post your job openings.',
     contactUs: 'Contacts',
+    allJobsTitle: 'All Vacancies',
+    partnerJobsTitle: 'Vacancies',
+    loadingText: 'Loading...',
+    loadError: 'Failed to load jobs data.',
+    retryBtn: 'Retry',
+    noJobsFound: 'No vacancies found.',
   },
 } satisfies Record<Language, unknown>;
 
