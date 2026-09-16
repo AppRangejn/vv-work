@@ -1,7 +1,7 @@
 # VV Work — Платформа з пошуку роботи та працівників у Європі
 
-* **Демо(Vercel):** [https://vv-work-lake.vercel.app](https://vv-work-lake.vercel.app)[cite: 2]
-* **Репозиторій:** [https://github.com/AppRangejn/vv-work](https://github.com/AppRangejn/vv-work)[cite: 2]
+* **Демо(Vercel):** [https://vv-work-lake.vercel.app](https://vv-work-lake.vercel.app)
+* **Репозиторій:** [https://github.com/AppRangejn/vv-work](https://github.com/AppRangejn/vv-work)
 
 ---
 
