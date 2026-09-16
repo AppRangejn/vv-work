@@ -62,8 +62,8 @@ npm run preview
 
 ![Lighthouse Audit](public/lighthouse.png)
 
-* **Performance:** 100[cite: 1]
-* **Accessibility:** 95[cite: 1]
+* **Performance:** 100
+* **Accessibility:** 95
 * **Best Practices:** 100
 * **SEO:** 92
 
