@@ -1,14 +1,15 @@
+import type { Translations } from '../context/LanguageContext';
+
 export interface CategoryItem {
   id: string;
-  ua: string;
-  en: string;
+  translationKey: keyof Translations;
 }
 
 export const categories: CategoryItem[] = [
-  { id: 'logistics', ua: 'Логістика та склади', en: 'Logistics & Warehouses' },
-  { id: 'production', ua: 'Виробництво та заводи', en: 'Manufacturing & Plants' },
-  { id: 'construction', ua: 'Будівництво та монтаж', en: 'Construction & Installation' },
-  { id: 'hospitality', ua: 'Готельно-ресторанна справа', en: 'Hospitality & HoReCa' },
-  { id: 'agriculture', ua: 'Сільське господарство', en: 'Agriculture & Farming' },
-  { id: 'transport', ua: 'Транспорт та водії', en: 'Transport & Driving' },
+  { id: 'logistics', translationKey: 'catLogistics' },
+  { id: 'production', translationKey: 'catProduction' },
+  { id: 'construction', translationKey: 'catConstruction' },
+  { id: 'hospitality', translationKey: 'catHospitality' },
+  { id: 'agriculture', translationKey: 'catAgriculture' },
+  { id: 'transport', translationKey: 'catTransport' },
 ];

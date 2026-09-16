@@ -1,16 +1,15 @@
+import type { Language } from '../context/LanguageContext';
+
 export type JobCategory =
   | 'construction'
   | 'production'
   | 'logistics'
   | 'hospitality'
   | 'it'
-  | 'drivers'
+  | 'transport'
   | 'other';
 
-export interface LocalizedText {
-  ua: string;
-  en: string;
-}
+export type LocalizedText = Record<Language, string>;
 
 export interface Job {
   id: string;
@@ -20,10 +19,7 @@ export interface Job {
   category: JobCategory;
   city: LocalizedText;
   country: LocalizedText;
-  salary: string; 
+  salary: string;
   description: LocalizedText;
-  requirements: {
-    ua: string[];
-    en: string[];
-  };
+  requirements: Record<Language, string[]>;
 }

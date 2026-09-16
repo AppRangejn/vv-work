@@ -72,7 +72,7 @@ export const mockJobs: Job[] = [
       ua: 'Водій навантажувача',
       en: 'Forklift Driver',
     },
-    category: 'drivers',
+    category: 'transport',
     city: { ua: 'Познань', en: 'Poznan' },
     country: { ua: 'Польща', en: 'Poland' },
     salary: '28 PLN/год',

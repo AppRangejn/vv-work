@@ -55,14 +55,14 @@ export const fetchJobsByPartner = async (slug: string): Promise<Job[]> => {
 };
 
 export const fetchPartnerInfo = async (slug: string): Promise<PartnerInfo | null> => {
+  if (!slug || slug === 'all') {
+    return null;
+  }
+
   await new Promise((resolve) => setTimeout(resolve, getRandomDelay()));
 
   if (Math.random() < 0.2) {
     throw new Error('NETWORK_ERROR');
-  }
-
-  if (!slug || slug === 'all') {
-    return null;
   }
 
   return mockPartners[slug] || {
